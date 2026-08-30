@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGAWPS-SGAIEM Framework | TechKraziest</title>
+</head>
+<body style="font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1f2937; background-color: #f9fafb;">
+    
+    <header style="border-bottom: 2px solid #e5e7eb; padding-bottom: 20px; margin-bottom: 30px;">
+        <h1 style="color: #111827; margin-bottom: 5px;">SGAWPS-SGAIEM Framework</h1>
+        <p style="font-style: italic; color: #6b7280; margin: 0;">The weather processing infrastructure for the fictional island of Marrow Bay</p>
+    </header>
+
+    <section>
+        <h2>About TechKraziest (Main Developer & Creator)</h2>
+        <p>TechKraziest is a YouTube creator and Python programmer who develops custom weather simulation frameworks. He is completely independent and <strong>not a member of the traditional EAS Hobbyist community</strong>.</p>
+        <p>He specializes in programming mocks of official Advanced Weather Interactive Processing System (AWIPS) programs, including HazServices, Broadcast Message Handler, WarnGen, and HazCollect. He aims to major in Computer Science to become an IT specialist and software engineer for the National Weather Service (NWS) and their local offices. At 16 years old, he has built expert-level weather applications over the span of 3 years, starting with AI-assisted learning to master Python and now building massive independent weather systems.</p>
+    </section>
+
+    <section>
+        <h2>Core Software Frameworks</h2>
+        
+        <h3>1. SGAWPS (SGA Weather Processing System)</h3>
+        <p>The "sender" framework of the database responsible for providing fast weather models to forecasters. Originally rooted in Suwanee, Georgia, the system is transitioning its operational jurisdiction to Marrow Bay (updating the station identifier from SGA to MRB in future builds). This framework contains:</p>
+        <ul>
+            <li><strong>sgawps_tw.exe:</strong> The Text Workstation used by forecasters to create, edit, and distribute forecast messages (Warnings, Watches, Advisories, non-weather emergency messages, etc.). It hosts the Broadcast Message Handler (BMH) client to control all station servers.</li>
+            <li><strong>sgawps_awips.exe:</strong> The client application that loads Marrow Bay geographical data, CONUS radar data, and storm rotation information, allowing forecasters to create storm-based polygons and send them to WarnGen.</li>
+        </ul>
+
+        <h3>2. SGAIEM (Suwanee Georgia Iowa Environmental Mesonet)</h3>
+        <p>The "receiving" end of the database. It receives messages sent from SGAWPS and distributes them out to the BMH system, the WwA system, local officials, and the general public. It is slated to be renamed to <em>Suwanee Georgia Integrated Emergency Manager</em> in upcoming software builds.</p>
+    </section>
+
+    <section>
+        <h2>Simulated NOAA Weather Radio Stations</h2>
+        <ul>
+            <li><strong>WXK39 (South Atlanta, Marrow Bay):</strong> Serves the western half of Marrow Bay and adjacent coastal waters. Operates on 162.475 MHz via a wireless audio feed.</li>
+            <li><strong>KBB56 (North Miami, Marrow Bay):</strong> Serves the eastern side of Marrow Bay and adjacent waters. Operates on 162.425 MHz via a wireless audio feed.</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin-top: 30px;">
+        <h2 style="margin-top: 0;">In Development: MarrowBayWX</h2>
+        <p>A significant weather monitoring application specifically designed for Marrow Bay in the west-central Atlantic. Built using a TypeScript/TSX frontend with AI collaboration, MarrowBayWX will notify users of critical warnings for specific counties, stream live radar data, and display storm polygons. Web, iOS, and Android applications are planned for public domain release once key bugs are resolved.</p>
+    </section>
+
+</body>
+</html>
