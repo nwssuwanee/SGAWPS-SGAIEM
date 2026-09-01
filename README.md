@@ -1,9 +1,14 @@
-# SGAWPS-SGAIEM
-Framework that runs the weather system for the fictional island Marrow Bay created by TechKraziest/
+# SGAWPS / SGAIEM
+Framework that develops, receives, and distributes emergency weather messages, and mocks the modern warning technology
+from the National Weather Service, including services like NOAA Weather Radio, AWIPS's Text Workstation, WarnGen, Haz
+Collect and HazCreator. We also receive and distribute non weather emergency messages such as Civil Emergency Messages, Civil
+Danger Warnings, Evacuation Immediate, and if needed, Emergency Action Notifications, or now, National Emergency Messages. We
+use the latest weather models such as the GFS, HRRR, ECMWF, NAM, and many others to develop accurate forecasts for the fictional
+state, geographical, and placement of Marrow Bay located in the western Atlantic.
 
 
 
-# About TechKraziest (Main Developer and Creator Profile)
+# About TechKraziest (The Main Developer and Creator Profile)
 
 TechKraziest is a YouTube creator and Python programmer who develops custom weather simulation frameworks. He is independent and not a member of the traditional EAS Hobbyist community. He specializes in programming mocks of official Advanced Weather Interactive Processing System (AWIPS) programs, including HazServices, Broadcast Message Handler, WarnGen, and HazCollect. He is looking to major in Computer Science, and is hoping to be an IT specialist and software engineer for the National Weather Service and their local offices. Despite his young age of 16, he has created phenomenal expert-like weather systems in the span of 3 years. He used AI in the beginning to better learn python and general programming, and later began taking the knowledge
 ChatGPT taught him and used it to create his own significant weather applications that run is weather infrastructure Today.
