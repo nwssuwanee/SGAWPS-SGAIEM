@@ -22,9 +22,9 @@ software receives messages sent from SGAWPS, and distributes them out to the BMH
 * **KBB56 (North Miami, Marrow Bay):** A simulated NWR transmitter serving the eastern side of Marrow Bay and adjacent waters. It operates on a frequency of 162.425 MHz using a wireless audio feed.
 
 
-## MarrowBayWX application in development
+## BayFrontWX application in development
 I am also in development of a significant weather app specifically designed for Marrow Bay, in which you can monitor when there is active weather ongoing in the west central Atlantic...
-where Marrow Bay is located. This app will be named MarrowBayWX, and will have the capabaility of notifying you whenever I issue critical messages for specific counties of the state,
+where Marrow Bay is located. This app will be named BayFrontWX, and will have the capabaility of notifying you whenever I issue critical messages for specific counties of the state,
 as if the real NWS was issuing a warning for your area. It will also show you live radar data, and polygon data. It is a really neat software, and I cannot wait to get a public domain out
 so you guys can access the app via the web, and hopefully design an app for iPhones and Androids which uses the frame network of this application.
 
